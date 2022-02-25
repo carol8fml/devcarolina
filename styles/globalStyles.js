@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+import typography from "./typography";
+import colors from "./colors";
 
 export const GlobalStyle = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -35,6 +37,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
+}
+body {
+  background: ${colors.secundary};
+  font-family: ${typography.text};
+  color: ${colors.primary};
 }
 ol, ul {
     list-style: none;
