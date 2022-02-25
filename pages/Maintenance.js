@@ -1,4 +1,5 @@
 import HeadHtml from "../components/HeadHtml";
+import Welcome from "../components/Welcome";
 import Footer from "../components/Footer";
 
 export default function Maintenace() {
@@ -10,6 +11,7 @@ export default function Maintenace() {
         keyword="sites, web, developmento, front End"
       />
       <div className="container container-fluid">
+        <Welcome />
         <Footer />
       </div>
     </>
