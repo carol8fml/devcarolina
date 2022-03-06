@@ -1,6 +1,6 @@
-import HeadHtml from "../components/HeadHtml";
-import Welcome from "../components/Welcome";
-import Footer from "../components/Footer";
+import HeadHtml from "../../components/HeadHtml";
+import Welcome from "./Welcome";
+import Footer from "../../components/Footer";
 
 export default function Maintenace() {
   return (

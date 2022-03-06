@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SocialMenu from "../SocialMenu";
+import SocialMenu from "../../../components/SocialMenu";
 import styled from "styled-components";
 
 const Wrapper = styled.main`
