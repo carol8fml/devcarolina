@@ -6,14 +6,17 @@ import colors from "../../styles/colors";
 
 const List = styled.ul`
   display: flex;
-  margin-bottom: 20vh;
+
+  @media only screen and (max-width: 48em) {
+    display: none;
+  }
 `;
 
 const Link = styled.a`
   text-decoration: none;
   transition: color 0.5s;
   margin: 0 1vh;
-  
+
   svg {
     transition: color 0.5s;
 

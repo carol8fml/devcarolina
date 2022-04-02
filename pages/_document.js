@@ -36,11 +36,13 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            as="style"
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            as="style"
           />
         </Head>
         <body>
