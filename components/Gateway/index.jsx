@@ -23,7 +23,7 @@ const Gateway = () => (
         size="2.26"
         align="left"
       />
-      <Button href="/" size="2.26" text="portfolio" MarginTop="3.77" />
+      <Button href="/portfolio" size="2.26" text="portfolio" MarginTop="3.77" />
       <Button href="/" size="2.26" text="Currículo" MarginTop="2" />
     </div>
   </Wrapper>
