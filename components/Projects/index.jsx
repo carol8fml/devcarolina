@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Text from "../Text";
 import Works from "./Works";
+import Return from "../Return";
 
 import styled from "styled-components";
 import colors from "../../styles/colors";
@@ -65,6 +66,7 @@ const Divider = styled.div`
 
 const Projects = () => (
   <Project className="container container-fluid">
+    <Return />
     <Text text="Projetos concluídos e em progresso." size="2.75" align="left" />
     <Title>Portfolio</Title>
     <Container>
